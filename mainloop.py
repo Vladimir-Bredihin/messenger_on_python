@@ -8,14 +8,14 @@ def send():
     global send_to
     global author
     sock =socket.socket()
-    sock.connect(('localhost', 10001))
+    sock.connect(('192.168.1.149', 10001))
     t = entry.get()
-    t = t.replace(' ','')
     if t!='':
         time = str(datetime.datetime.utcnow()+datetime.timedelta(hours=3))
         sock.send(("send "+author+"\\"+t+"\\"+time[:19]+" "+send_to).encode('utf-8'))
         sock.close
         update(author,send_to)
+    entry.delete(1.0,END)
 def update(by,to):
     global window
     global myframe
@@ -26,11 +26,12 @@ def update(by,to):
         pass
     else:
         sock = socket.socket()
-        sock.connect(('localhost', 10001))
+        sock.connect(('192.168.1.149', 10001))
         sock.send((by + ' make connected update '+to).encode('utf-8'))
         data = list(sock.recv(1000000).decode('utf-8'))
         sock.close()
         strings = []
+        txt.config(state=NORMAL)
         while "\n" in data:
             string_index = data.index("\n")
             string_list = data[:string_index]
@@ -65,6 +66,7 @@ def update(by,to):
             n+=1
             t= messages[i][2]+'('+messages[i][1]+')-'+messages[i][0]+"\n"
             txt.insert(float(n),t)
+        txt.config(state=DISABLED)
 def quit():
     global window
     window.destroy()
@@ -77,7 +79,7 @@ def mainloop(file):
     send_to = None
     author= file
     sock = socket.socket()
-    sock.connect(('localhost', 10001))
+    sock.connect(('192.168.1.149', 10001))
     sock.send((file+' connect').encode('utf-8'))
     data = sock.recv(1024).decode('utf-8')
     sock.close()
@@ -92,7 +94,7 @@ def mainloop(file):
         accounts =data.split()
         frame= Frame(window)
         frame.place(x=200,y=0,width=600,height=600)
-        txt = Text(frame,width=580,height=600,wrap=NONE)
+        txt = Text(frame,width=580,height=600,wrap=NONE,state=DISABLED)
         txt.pack(side="left")
         n=0
         for i in accounts:

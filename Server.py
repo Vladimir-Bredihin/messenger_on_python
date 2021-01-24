@@ -6,6 +6,7 @@ def sortByLength(inputStr):
 async def handle_echo(reader, writer):
     data = await reader.read(1024)
     data = data.decode('utf-8')
+    print(data)
     file = json.load(open("data.json"))
     users=file['users']
     if data in users:
@@ -63,6 +64,7 @@ async def handle_echo(reader, writer):
             count.append(user)
             count.append(author)
             count.sort(key=sortByLength)
+            print(text)
             for i in file["history"]:
                 if i["users"]==count:
                     key= file["history"].index(i)
@@ -70,7 +72,7 @@ async def handle_echo(reader, writer):
             with open("data.json","w") as f:
                 f.write(json.dumps(file,indent=4))
 loop = asyncio.get_event_loop()
-coro = asyncio.start_server(handle_echo,"localhost", 10001,loop=loop)
+coro = asyncio.start_server(handle_echo,"192.168.1.149", 10001,loop=loop)
 server = loop.run_until_complete(coro)
 try:
     loop.run_forever()
