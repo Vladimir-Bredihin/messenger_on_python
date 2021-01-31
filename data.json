@@ -10,19 +10,14 @@
     "history": [
         {
             "users": [
-                "vova",
-                "dmitry"
+                "dmitry",
+                "helarant"
             ],
             "history": [
                 {
                     "author": "admin",
-                    "time": "2021-01-23 19:39:33",
+                    "time": "2021-01-27 22:01:56",
                     "text": "\u041d\u0430\u0447\u0430\u043b\u043e \u043f\u0435\u0440\u0435\u043f\u0438\u0441\u043a\u0438"
-                },
-                {
-                    "author": "vova",
-                    "time": "2021-01-23 19:40:30",
-                    "text": "\u041f\u0440\u0438\u0432\u0435\u0442"
                 }
             ]
         },
@@ -34,301 +29,20 @@
             "history": [
                 {
                     "author": "admin",
-                    "time": "2021-01-23 20:00:43",
+                    "time": "2021-01-27 22:01:57",
                     "text": "\u041d\u0430\u0447\u0430\u043b\u043e \u043f\u0435\u0440\u0435\u043f\u0438\u0441\u043a\u0438"
                 }
             ]
         },
         {
             "users": [
-                "vova",
-                "george"
+                "george",
+                "helarant"
             ],
             "history": [
                 {
                     "author": "admin",
-                    "time": "2021-01-23 20:00:47",
-                    "text": "\u041d\u0430\u0447\u0430\u043b\u043e \u043f\u0435\u0440\u0435\u043f\u0438\u0441\u043a\u0438"
-                }
-            ]
-        },
-        {
-            "users": [
-                "vova",
-                "pavel"
-            ],
-            "history": [
-                {
-                    "author": "admin",
-                    "time": "2021-01-23 20:00:49",
-                    "text": "\u041d\u0430\u0447\u0430\u043b\u043e \u043f\u0435\u0440\u0435\u043f\u0438\u0441\u043a\u0438"
-                },
-                {
-                    "author": "vova",
-                    "time": "2021-01-23 20:01:15",
-                    "text": "\u041f\u0440\u0438\u0432\u0430!!!!"
-                },
-                {
-                    "author": "vova",
-                    "time": "2021-01-23 20:01:30",
-                    "text": "\u041a\u0415\u041a\u041a\u041a\u041a\u041a"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:01:56",
-                    "text": "\u043b\u043e\u043b\u043b\u043b\u043b"
-                },
-                {
-                    "author": "vova",
-                    "time": "2021-01-23 20:02:09",
-                    "text": "\u041a\u0420\u041e\u041b\u041b\u041b\u041b"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:02:12",
-                    "text": ""
-                },
-                {
-                    "author": "vova",
-                    "time": "2021-01-23 20:04:18",
-                    "text": "rtr"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:04:29",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:15:59",
-                    "text": "trt"
-                },
-                {
-                    "author": "vova",
-                    "time": "2021-01-23 20:16:00",
-                    "text": "rtr"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:03",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:03",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:03",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:04",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:04",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:04",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:04",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:12",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:13",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:15",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:15",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:17",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:18",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:19",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:20",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:21",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:22",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:23",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:24",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:25",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:26",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:27",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:28",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:29",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:30",
-                    "text": "trt"
-                },
-                {
-                    "author": "vova",
-                    "time": "2021-01-23 20:16:33",
-                    "text": "rtr"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:34",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:35",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:35",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:35",
-                    "text": "trt"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:35",
-                    "text": "trt"
-                },
-                {
-                    "author": "vova",
-                    "time": "2021-01-23 20:16:36",
-                    "text": "rtr"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:42",
-                    "text": "1"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:45",
-                    "text": "2"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:49",
-                    "text": "3"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:51",
-                    "text": "4"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:53",
-                    "text": "5"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:55",
-                    "text": "6"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:56",
-                    "text": "7"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:16:58",
-                    "text": "8"
-                },
-                {
-                    "author": "pavel",
-                    "time": "2021-01-23 20:17:00",
-                    "text": "9"
-                },
-                {
-                    "author": "vova",
-                    "time": "2021-01-23 20:17:01",
-                    "text": "rtr"
-                }
-            ]
-        },
-        {
-            "users": [
-                "vova",
-                "admin"
-            ],
-            "history": [
-                {
-                    "author": "admin",
-                    "time": "2021-01-23 20:00:50",
+                    "time": "2021-01-27 22:01:57",
                     "text": "\u041d\u0430\u0447\u0430\u043b\u043e \u043f\u0435\u0440\u0435\u043f\u0438\u0441\u043a\u0438"
                 }
             ]
@@ -341,7 +55,153 @@
             "history": [
                 {
                     "author": "admin",
-                    "time": "2021-01-23 20:01:20",
+                    "time": "2021-01-27 22:02:01",
+                    "text": "\u041d\u0430\u0447\u0430\u043b\u043e \u043f\u0435\u0440\u0435\u043f\u0438\u0441\u043a\u0438"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:02:15",
+                    "text": "\u043b\u043e\u0445\u0445\u0445!"
+                }
+            ]
+        },
+        {
+            "users": [
+                "admin",
+                "helarant"
+            ],
+            "history": [
+                {
+                    "author": "admin",
+                    "time": "2021-01-27 22:02:01",
+                    "text": "\u041d\u0430\u0447\u0430\u043b\u043e \u043f\u0435\u0440\u0435\u043f\u0438\u0441\u043a\u0438"
+                },
+                {
+                    "author": "admin",
+                    "time": "2021-01-27 22:02:18",
+                    "text": "\u041a\u0410\u043b\u043b\u043b"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:02:42",
+                    "text": "\u0441\u0430\u043c \u0435\u0448"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:02:46",
+                    "text": "\u0441\u0430\u043c \u0435\u0448"
+                },
+                {
+                    "author": "admin",
+                    "time": "2021-01-27 22:03:45",
+                    "text": "\u043d\u0435\u0442\u0442\u0442\u0442\u0442\u0442\u0442"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:07",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:07",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:08",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:08",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:08",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:08",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:08",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:09",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:09",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:09",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:09",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:04:09",
+                    "text": "\u043b\u043e\u0445"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:08:29",
+                    "text": "\u042f \u0418\u0414\u0418\u041e\u0422!!!"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:08:40",
+                    "text": "\u0421\u0443\u043c\u0430\u0448\u0435\u0434\u0448\u0438\u0439 \u0438\u0434\u0438\u043e\u0442!!!"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:08:54",
+                    "text": "\u041b\u044e\u0431\u043b\u044e \u0431\u0438\u0442\u044c \u0441\u0435\u0431\u044f \u043a\u0430\u043c\u043d\u0435\u043c \u043f\u043e \u0433\u043e\u043b\u043e\u0432\u0435!!!"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:09:42",
+                    "text": "\u044f - \u043c\u0430\u043a\u0430\u043a\u0430\u043a\u0430"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:14:49",
+                    "text": "\u0441\u043b\u044b\u0448 \u0442\u044b \u0435\u0431\u0430\u043b\u043e \u0442\u043e \u0437\u0430\u0432\u0430\u043b\u0438"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:14:58",
+                    "text": "\u0442\u0432\u0430\u0440\u0438\u043d\u0430 \u0442\u0430\u043a\u0430\u044f"
+                },
+                {
+                    "author": "helarant",
+                    "time": "2021-01-27 22:15:17",
+                    "text": "\u0442\u0432\u0430\u0440\u0438\u043d\u0430 \u0442\u0430\u043a\u0430\u044f!!!"
+                }
+            ]
+        },
+        {
+            "users": [
+                "vova",
+                "admin"
+            ],
+            "history": [
+                {
+                    "author": "admin",
+                    "time": "2021-01-27 22:03:34",
                     "text": "\u041d\u0430\u0447\u0430\u043b\u043e \u043f\u0435\u0440\u0435\u043f\u0438\u0441\u043a\u0438"
                 }
             ]

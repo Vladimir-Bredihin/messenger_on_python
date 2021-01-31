@@ -72,7 +72,7 @@ async def handle_echo(reader, writer):
             with open("data.json","w") as f:
                 f.write(json.dumps(file,indent=4))
 loop = asyncio.get_event_loop()
-coro = asyncio.start_server(handle_echo,"192.168.1.149", 10001,loop=loop)
+coro = asyncio.start_server(handle_echo,"25.95.4.168", 10001,loop=loop)
 server = loop.run_until_complete(coro)
 try:
     loop.run_forever()

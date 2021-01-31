@@ -8,7 +8,7 @@ def send():
     global send_to
     global author
     sock =socket.socket()
-    sock.connect(('192.168.1.149', 10001))
+    sock.connect(('25.95.4.168', 10001))
     t = entry.get()
     if t!='':
         time = str(datetime.datetime.utcnow()+datetime.timedelta(hours=3))
@@ -26,7 +26,7 @@ def update(by,to):
         pass
     else:
         sock = socket.socket()
-        sock.connect(('192.168.1.149', 10001))
+        sock.connect(('25.95.4.168', 10001))
         sock.send((by + ' make connected update '+to).encode('utf-8'))
         data = list(sock.recv(1000000).decode('utf-8'))
         sock.close()
@@ -79,7 +79,7 @@ def mainloop(file):
     send_to = None
     author= file
     sock = socket.socket()
-    sock.connect(('192.168.1.149', 10001))
+    sock.connect(('25.95.4.168', 10001))
     sock.send((file+' connect').encode('utf-8'))
     data = sock.recv(1024).decode('utf-8')
     sock.close()

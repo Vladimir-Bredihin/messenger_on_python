@@ -16,7 +16,7 @@ def clicked():
             labelError['text'] ="Неправильный логин!"
         else:
             sock = socket.socket()
-            sock.connect(('192.168.1.149', 10001))
+            sock.connect(('25.95.4.168', 10001))
             sock.send(text.encode('utf-8'))
             data = sock.recv(1024)
             while not data:
