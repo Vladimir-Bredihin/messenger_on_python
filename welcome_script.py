@@ -2,14 +2,16 @@ from tkinter import *
 import socket
 import time
 from tkinter import messagebox as mb
-error = True
 SingIn = None
+
 def clicked():
+    #Отправляет логин и проверяет его наличие у сервера
     global SingIn
     global login
     global labelError
     global window
     try:
+        #Обрабатываем ответ сервера
         text= login.get()
         text = text.replace(" ", "")
         if text =='':
@@ -22,6 +24,7 @@ def clicked():
             while not data:
                 data = sock.recv(1024)
             if data.decode('utf-8') == 'ok\n':
+                #Конец исполнения welcome_script и передача исправного логина в mainloop
                 SingIn = text
                 window.destroy()
             else:
@@ -34,11 +37,12 @@ def welcome_script():
     global login
     global window
     global ok
+    #Создание и настройка окна tk
     window = Tk()
     window.title("Авторизация")
     window.geometry('375x200')
-    # waiting for correct login
     message = StringVar()
+    #Начало цикла ожидания правильного логина
     while SingIn is None:
         labelName = Label(window, text="Введите логин",font=('Arial Bold',40))
         labelError = Label(window,text="",font=('Arial Bold',20))
@@ -49,4 +53,5 @@ def welcome_script():
         btn = Button(window,text='Зайти',font=('Arial Bold',20),command=clicked)
         btn.grid(column=0,row=3)
         window.mainloop()
+    #После получения корректного логина - возвращяем логин
     return SingIn
